@@ -6,7 +6,7 @@ In Linux,managing files and permissions and ownership is vital for controlling w
 ### Numeric Representation of Permission
 ---
 In linux,permissions are represnted using numeric values.Each permission is assigned a speific value.
-Take a loo at the following:
+Take a look at the following:
 
 - **No permissions** = 0
 - **read permission** = 4
