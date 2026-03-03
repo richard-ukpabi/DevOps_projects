@@ -43,3 +43,4 @@ next we run `npm install express` in the same folder where the package.json fold
 ![](./img/github-web-output.png)
 
 -Pusing the code to github
+![](./img/github-push.png)
