@@ -103,5 +103,6 @@ To confirm and verufy the group, we run the command
 - `aws iam get-group --group-name admin`
 ![admin created](./img/shell14.png)
 
+Link to the extended script is `https://github.com/richard-ukpabi/DevOps_projects/blob/main/Shell%20script%20for%20AWS%20IAM%20Management/aws-iam-manager.sh`
 
 End of project.
