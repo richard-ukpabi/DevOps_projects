@@ -9,24 +9,27 @@ They explain what the script or parts of the script do, making the code easier t
 ## What Are Comments?
 
 Comments are lines in your code that are ignored by the interpreter. In Bash scripts, comments help document the purpose and logic of your code, making it easier for others (and yourself) to follow and understand the script's functionality.
+for example, let us take a look at the below shell script. test.sh 
+![comment example](./img/bash-script%201.png)
 
 #### Single-Line Comments
 
-Single-line comments in Bash start with the # symbol. Anything following this symbol on the same line is treated as a comment and is not executed.
+Single-line comments in Bash start with the # symbol. Anything following this symbol on the same line is treated as a comment and is not executed. using the same script , let us run a simple command and use the comment to outkline the  various aspect of the script.
+![single line command](./img/single%20line%20commadn.png)
 
 
 ### This is a single-line comment in Bash
 echo "Hello, you are learning Bash Scripting on DAREY.IO!" # This is also a comment, following a command
-Using Multiple Single-Line Comments:
 
-# This is another way to create
+## Using Multiple Single-Line Comments:
 
-# a multi-line comment. Each line 
-
-# is prefixed with a # symbol.
+ This is another way to create a multi-line comment. Each line is prefixed with a # symbol.
 
 echo "Here is an actual code that gets executed"
 This approach is straightforward and is commonly used for adding brief descriptions or notes spanning multiple lines.
+
+Using the earlier example, we can show case the use of multiple line .
+![multiple comment line](./img/multiple%20comment%20line.png)
 
 Best Practices for Commenting:
 
@@ -36,4 +39,3 @@ Usefulness: Comment on complex or non-obvious parts of the script to provide ins
 Avoid Overcommenting: Don't comment on every line of code, especially if the code is self-explanatory. Focus on parts that benefit from additional explanation.
 At this stage, you've established a solid foundation in Bash/shell scripting. (It's worth noting that Bash and Shell are similar in functionality, which is why their names are often used interchangeably, despite being distinct interpreters.)
 
-Moving forward, you will embark on a capstone project that provides an opportunity for hands-on practice, allowing you to apply your scripting skills in a practical setting and truly immerse yourself in the coding experience.
