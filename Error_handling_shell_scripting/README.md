@@ -44,7 +44,6 @@ create_s3_buckets() {"\n    company=\"datawise\"\n    departments=(\"Marketing\"
 }
 In this updated version, before attempting to create each bucket, we use the aws s3api head-bucket command to check if the bucket already exists. If the bucket exists, a message is displayed indicating its presence. Otherwise, the script proceeds to create the bucket as before. This approach helps prevent errors and ensures that existing buckets are not recreated unnecessarily.
 
-Congratulations for reaching this milestone.
 
 
 In summarizing, Through this mini project, I learned how essential error handling is for building reliable and predictable shell scripts, especially when working with AWS resources. I explored how to anticipate potential failures—such as invalid user input, failed commands, or resource conflicts—and use conditional statements to detect and respond to these issues gracefully. By checking command exit statuses, validating assumptions, and providing clear, informative messages, scripts become far more robust and user‑friendly. Implementing error handling in the S3 bucket creation function reinforced the importance of verifying resource existence before performing actions, preventing duplicate buckets and unnecessary EC2 instances. Overall, this project strengthened my understanding of writing safer, smarter automation scripts that behave consistently even when unexpected conditions occur. 
