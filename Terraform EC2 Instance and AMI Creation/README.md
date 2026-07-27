@@ -146,4 +146,4 @@ Execute command terraform destroy to clean up the resources created by the scrip
 
 Documentation
 Document your observations and any challenges faced as you carried out this project.
-1. Due to the fact that my original VPC had been deleted while practicing, the terraform was not creating my INSTANCE because it coould not find default VPC i needed to add file for each network component to make my terraform work. i create a VPC,TELNET,ROUTE,SECURITY GROUP before it could work. This made changes where made to the file main.tf
+1. Due to the fact that my original VPC had been deleted while practicing, the terraform was not creating my INSTANCE because it coould not find default VPC i needed to add file for each network component to make my terraform work. i create a VPC,TELNET,ROUTE,SECURITY GROUP before it could work. This made changes where made to the file main.
