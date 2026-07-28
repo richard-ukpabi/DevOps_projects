@@ -146,4 +146,9 @@ Execute command terraform destroy to clean up the resources created by the scrip
 
 Documentation
 Document your observations and any challenges faced as you carried out this project.
-1. Due to the fact that my original VPC had been deleted while practicing, the terraform was not creating my INSTANCE because it coould not find default VPC i needed to add file for each network component to make my terraform work. i create a VPC,TELNET,ROUTE,SECURITY GROUP before it could work. This made changes where made to the file main.
+1. Due to the fact that my original VPC had been deleted while practicing, the terraform was not creating my INSTANCE because it coould not find default VPC. i needed to add file for each network component to make my terraform work.This was basically using terraform to create a VPC,SUBNET,IGW,ROUTE,NAT GATEWAY,SECURITY GROUP before it could work. This made changes where made to the file main.
+To the main.tf script, i know needed to add the subnet_id, security_group_id and the boolean associate public_ip_address = True
+
+  `subnet_id                   = aws_subnet.my_public_subnet.id`
+  `vpc_security_group_ids      = [aws_security_group.my_public_sg.id]`
+  `associate_public_ip_address = true`
